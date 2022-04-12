@@ -54,5 +54,6 @@ defmodule SmartGitWeb.Router do
       forward "/mailbox", Plug.Swoosh.MailboxPreview
     end
   end
+
   # coveralls-ignore-stop
 end
